@@ -36,3 +36,4 @@ window.addEventListener('DOMContentLoaded', function () {
         document.body.classList.add('dark-mode');
     }
 });
+// Comente el codigo por que me daba error al subirlo a git
