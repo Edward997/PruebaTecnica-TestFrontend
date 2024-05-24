@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Tecnica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-tema">
+            <button id="toggleDarkMode" class="dark-mode-button">Light/Dark Mode</button>
+        </div>
+        <div class="card">
+            <div class="media-icons">
+                <a href="https://github.com/Edward997" target="_blank" class="icon"><img src="./assets/icons/github.svg" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/edward-navarrete-055341228/" target="_blank" class="icon"><img src="./assets/icons/LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://github.com/Edward997" target="_blank" class="icon"><img src="./assets/icons/Facebook.svg" alt="Facebook"></a>
+            </div>
+            <div class="profile-circle">
+                <img src="./assets/images/imagen.jpg" alt="Imagen de Perfil" class="profile-img">
+            </div>
+            <div class="description-container">
+                <p class="card-description">Full Name: Edward Navarrete Baltazar</p>
+                <p class="card-description">Position: Web Developer</p>
+            </div>
+            <div class="button-container">
+                <button id="openModal" class="card-button">Open Modal</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="modalBackdrop" class="modal-backdrop">
+        <div id="modal" class="modal">
+            <button id="closeModal" class="close-button">×</button>
+            <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>
